@@ -1,0 +1,21 @@
+.container{
+border: 2px solid rgb(255, 123, 0);
+display: flex;
+justify-content: flex-start;
+height: 700px;
+align-items: flex-end;
+flex-direction: row-reverse ;
+}
+
+.box{
+border: 2px dashed rgb(255, 4, 4);
+height: 350px;
+width: 100px;
+text-align: center;
+font-size: 30px;
+background-color: green;
+} 
+
+.box:first-child{
+  margin-left: 0px;
+}
